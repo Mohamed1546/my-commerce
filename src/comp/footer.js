@@ -53,7 +53,7 @@ export default function Footer() {
               textTransform: "uppercase",
             }}
           >
-            Designed by Ahmed El Baloshy copyright<i>  </i> 
+            Designed by Ahmed Al balushi copyright<i>  </i> 
           </i>
           @ 2023
         </h6>
