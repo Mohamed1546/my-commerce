@@ -22,7 +22,7 @@ export default function Home() {
       <br />
       <div className="row">
         <div className="col-2">
-          <h1 id="h">Chairs</h1>
+          <h1 id="h">Modern Sofa</h1>
         </div>
         <div className="col-10" />
       </div>
@@ -38,29 +38,23 @@ export default function Home() {
               data-slide-to={0}
               className="active"
             />
+            <li data-target="#carousel-example" data-slide-to={0} />
             <li data-target="#carousel-example" data-slide-to={1} />
-            <li data-target="#carousel-example" data-slide-to={2} />
-            <li data-target="#carousel-example" data-slide-to={3} />
-            <li data-target="#carousel-example" data-slide-to={4} />
-            <li data-target="#carousel-example" data-slide-to={5} />
-            <li data-target="#carousel-example" data-slide-to={6} />
-            <li data-target="#carousel-example" data-slide-to={7} />
-            <li data-target="#carousel-example" data-slide-to={8} />
-            <li data-target="#carousel-example" data-slide-to={9} />
           </ol>
           <div className="carousel-inner">
-            <div className="carousel-item active">
+          <div className="carousel-item active">
               <div className="row">
                 <div className="col-6">
                   <img
                     id="im1"
+                    style={{ width: 400, }}
                     className="card-image"
-                    src="https://s7d5.scene7.com/is/image/Anthropologie/51729200_020_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=640"
+                    src="https://i.ibb.co/s3Bf56K/f4.jpg"
                   />
                 </div>
                 <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
+                  <h6></h6>
+                  <a  className="btn-primary">1520  OMR</a>
                 </div>
               </div>
             </div>
@@ -69,133 +63,14 @@ export default function Home() {
                 <div className="col-6">
                   <img
                     id="im1"
+                    style={{ width: 400, }}
                     className="card-image"
-                    src="https://i.pinimg.com/originals/d8/fb/34/d8fb3436ff8e41885aa49d8f88f451d5.jpg"
+                    src="https://i.ibb.co/hXBDNCy/f3.jpg"
                   />
                 </div>
                 <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://www.palkovic.hr/wp-content/uploads/2020/06/stolica-marbel-palkovic.jpg"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://th.bing.com/th/id/OIP.veRAeiCvgL-s_tduEsxX2wAAAA?pid=ImgDet&w=352&h=352&rs=1"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://cdn.shopify.com/s/files/1/0191/2234/products/43508-FineBuy-Couchtisch-Massiv-Holz-115-cm-brei_11_1024x1024.jpg?v=1530995333"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://i.pinimg.com/736x/fe/62/91/fe62912912873cdc6a5c5fbbe4a96c5a--side-chairs.jpg"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://th.bing.com/th/id/R.4b98c398105d00a34435d9a40c903895?rik=5sDpCZ%2bJkk2oOA&pid=ImgRaw&r=0"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://th.bing.com/th/id/R.4b98c398105d00a34435d9a40c903895?rik=5sDpCZ%2bJkk2oOA&pid=ImgRaw&r=0"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://th.bing.com/th/id/R.81960169aabf81000d878c2c6ebcbdc2?rik=1%2bJETA6BNEdkww&pid=ImgRaw&r=0"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://th.bing.com/th/id/R.e78888af3ea6ed7da89aba9298d54df0?rik=3w66HcymOeDixg&pid=ImgRaw&r=0"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>chair 50cm * 80cm</h6>
-                  <a href>1520</a>
+                  <h6></h6>
+                  <a  className="btn-primary">1520  OMR</a>
                 </div>
               </div>
             </div>
@@ -218,7 +93,7 @@ export default function Home() {
       </div>
       <div className="row">
         <div className="col-2">
-          <h1 id="hh">Tables</h1>
+          <h1 id="hh">Kitchens</h1>
         </div>
         <div className="col-6" />
       </div>
@@ -237,18 +112,19 @@ export default function Home() {
             <li data-target="#car" data-slide-to={9} />
           </ol>
           <div className="carousel-inner">
-            <div className="carousel-item active">
+          <div className="carousel-item active">
               <div className="row">
                 <div className="col-6">
                   <img
                     id="im1"
+                    style={{ width: 400, }}
                     className="card-image"
-                    src="https://pbs.twimg.com/media/DCaqsfoVYAEytxV.jpg:large"
+                    src="https://i.ibb.co/7pqPLQW/f5.jpg"
                   />
                 </div>
                 <div className="col-6">
-                  <h6>Table 100cm * 180cm</h6>
-                  <a href>1520</a>
+                  <h6></h6>
+                  <a  className="btn-primary">1520  OMR</a>
                 </div>
               </div>
             </div>
@@ -257,73 +133,14 @@ export default function Home() {
                 <div className="col-6">
                   <img
                     id="im1"
+                    style={{ width: 400, }}
                     className="card-image"
-                    src="https://kosto-stone.ru/upload/resize_cache/iblock/827/262_282_2/8278862096bef737ad74dc99e8cac0c7.jpg"
+                    src="https://i.ibb.co/zFjWxrG/f6.jpg"
                   />
                 </div>
                 <div className="col-6">
-                  <h6>Table 100cm * 180cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://m.media-amazon.com/images/I/51ROtUj8PyL.jpg"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>Table 100cm * 180cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://www.bvd.co.il/img/fck/image/commercial%20articles/%D7%A1%D7%99%20%D7%90%D7%99%D7%99%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C/%D7%90%D7%93%D7%95%D7%9D.jpg"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>Table 100cm * 180cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://i.pinimg.com/originals/48/d2/95/48d29529f2ca2d83d09f8a339d4ed34c.jpg"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>Table 100cm * 180cm</h6>
-                  <a href>1520</a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row">
-                <div className="col-6">
-                  <img
-                    id="im1"
-                    className="card-image"
-                    src="https://th.bing.com/th/id/R.e52e0f5ff7037fd775a766cd0fcb7c0b?rik=jnihWFuruge83A&pid=ImgRaw&r=0"
-                  />
-                </div>
-                <div className="col-6">
-                  <h6>Table 100cm * 180cm</h6>
-                  <a href>1520</a>
+                  <h6></h6>
+                  <a  className="btn-primary">1520  OMR</a>
                 </div>
               </div>
             </div>

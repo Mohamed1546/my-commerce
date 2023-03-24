@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './proj/home'
-import D1 from './proj/d1'
 import D2 from './proj/d2'
 import D3 from './proj/d3'
 import D4 from './proj/d4'
@@ -17,7 +16,6 @@ import D13 from './proj/d13'
 import D14 from './proj/d14'
 import D15 from './proj/d15'
 import './index.css';
-import App from './App';
 import {
   createBrowserRouter,
   RouterProvider,

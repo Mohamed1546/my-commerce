@@ -21,22 +21,22 @@ export default function Header() {
                 </li>
                 <li className="dropdown-item">
                   <a href="/d2" id="a1">
-                    2_...
+                    2_Sallon
                   </a>
                 </li>
                 <li className="dropdown-item">
                   <a href="/d3" id="a1">
-                    3_...
+                    3_modern sofa
                   </a>
                 </li>
                 <li className="dropdown-item">
                   <a href="/d4" id="a1">
-                    4_...
+                    4_Sofa
                   </a>
                 </li>
                 <li className="dropdown-item">
                   <a href="/d5" id="a1">
-                    5_...
+                    5_Kitchen
                   </a>
                 </li>
                 <li className="dropdown-item">
@@ -104,17 +104,20 @@ export default function Header() {
       <div className="col-12" style={{height: 60}}></div>
       <div className="row" id="h1">
         <div className="col-8">
-          <h1 id="h1-1">Oman Paints </h1>
+          <img
+            src="https://i.ibb.co/mHnq7c9/m3.png"
+            style={{ width: 300, borderRadius: 20 , }}
+            id="im2"
+          />
           <h3>
-            We can
-            <i style={{ color: "chocolate", fontWeight: "bold" }}>  make difference</i>
+            <i id="ii" style={{ fontWeight: "bold",border: "solid", }}>Furniture Decor , shelves</i>
           </h3>
           <br />
         </div>
         <div className="col-3">
           <img
-            src="https://m.media-amazon.com/images/I/81GN2MmrKIL._AC_UL400_.jpg"
-            style={{ width: 300, borderRadius: 20 }}
+            src="https://i.ibb.co/0ZBN0T4/m1.jpg"
+            style={{ width: 300, borderRadius: 20,marginTop: 20 , }}
             id="im2"
           />
         </div>
